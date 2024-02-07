@@ -6,12 +6,8 @@ For more information, refer to the [Confluence page](https://tfal.atlassian.net/
 
 ## Setup
 
-The automation suite has a dependency on DX' Ceres Core:
+The automation suite has a dependency on Java, selenium and Cucumber 
 
-    git clone https://bitbucket.org/dxdevops/dx_ceres_core.git
-    cd dx_ceres_core
-    mvn install
-    cd ..
 
 ## Executing
 
@@ -19,7 +15,7 @@ The project uses [cucumber-java](https://github.com/cucumber/cucumber-jvm) with 
 
 Tests are run using standard Maven commands:
 
-    # Run with default QuotesTestSuite.xml and Test test group
+    # Run with default TestSuite.xml and Test test group
     mvn clean install
         
     # Specifying a different TestNG .xml file  
