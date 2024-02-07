@@ -1,4 +1,4 @@
-# PEGA TFA Automation Suite
+# CBA Automation Suite
 
 This repository contains functional automated UI tests for Pega at TFA.
 
