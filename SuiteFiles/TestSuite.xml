@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="chrome" />
+	<parameter name="browserVersion" value="86.0.4240.111" />
+	<parameter name="platform" value="windows" />
+	<parameter name="platformVersion" value="10" />
+	<test name="Test" thread-count="1" parallel="classes">
+		<classes>
+
+  	 		<class name="runners.PETTestRunner" />
+			 <class name="runners.StoreTestRunner"/>
+			 <class name="runners.UserTestRunner"/>
+			 
+	</test>
+	<listeners>
+		<listener class-name="logging.TestLogManagerListener" />
+		<listener class-name="listeners.cucumber.TestSuiteListenerNew" />
+	</listeners>
+</suite>

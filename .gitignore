@@ -1,0 +1,16 @@
+*.iml
+Users/
+target/
+doc/
+*.project
+*.settings
+*.classpath
+STDOUT
+file
+*.csv
+CSVResults/
+*.pptx
+test.db
+test-output/
+resources/credentials/
+.idea/
