@@ -1,8 +1,6 @@
 # CBA Automation Suite
 
-This repository contains functional automated UI tests for Pega at TFA.
-
-For more information, refer to the [Confluence page](https://tfal.atlassian.net/wiki/spaces/TEST/pages/49774935/Pega+Test+Automation).
+This repository contains functional automated tests for Swagger APIs
 
 ## Setup
 
