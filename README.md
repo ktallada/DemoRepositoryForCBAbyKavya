@@ -17,13 +17,12 @@ Tests are run using standard Maven commands:
     mvn clean install
         
     # Specifying a different TestNG .xml file  
-    mvn clean install -Dtestng.suitefile="SuiteFiles/QuotesTestSuite.xml"
+    mvn clean install -Dtestng.suitefile="SuiteFiles/TestSuite.xml"
     
     # Specifying a specific test:
     mvn clean install -Dtestng.testnames=Shakeout
     
     # Specifying cucumber options
     # Refer to https://cucumber.io/docs/cucumber/api/#options for more details
-    # NOTE This overwrites existing cucumber options in the Runner class
-    mvn clean test "-Dcucumber.execution.dry-run=true" "-Dcucumber.plugin=tfa.PEGA.custommethods.CustomLogger"
+    
 # DemoRepositoryForCBAbyKavya
